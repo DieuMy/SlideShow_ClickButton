@@ -1,0 +1,27 @@
+.slideshow{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    border: 1px solid #EC5598;
+    margin: 0 auto;
+}
+.slide img {
+    object-fit: cover;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    margin: 0 auto;
+    top:50px;
+}
+#prev{
+    text-transform: uppercase;
+    position: absolute;
+    top: 250px;
+    left:10px;
+}
+#next{
+    text-transform: uppercase;
+    position: absolute;
+    top: 250px;
+    right:10px;
+}
